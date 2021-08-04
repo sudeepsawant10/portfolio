@@ -1,0 +1,56 @@
+{% extends 'myinfo/layout.html' %}
+{% load static %}
+
+{% block script %}
+
+{% endblock %}
+{% block body %}
+<div class="container my-5">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                   <h6>Notes Web Application using PHP</h6> 
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body border">
+                    <div><b>Front end: </b> <i>html, css , bootstrap and js</i></div>
+                    <div><b>Back end: </b> <i>PHP and mysqli</i></div><hr>
+                    <b>Functions:</b>
+                    <ul>
+                        <li>User can Register and Login.</li>
+                        <li>Create notes by giving title and some description.</li>
+                        <li>After adding notes will appear serially. </li>
+                        <li>Edit options for every note if user wants to edit.</li>
+                        <li>User can delete note.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h6>Covid-19 Website using html css and js</h6> 
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body border">
+                    <b>Functions / Info</b>
+                    <ul>
+                        <li>User can get information about Covid-19 Virus.</li>
+                        <li>Also can check prevention measures</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+</div>
+
+
+    {% endblock %}
